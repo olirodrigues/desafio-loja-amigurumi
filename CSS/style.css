@@ -13,8 +13,14 @@ body {
   height: 100%;
 }
 
+main {
+  margin: auto;
+  width: 80%;
+}
+
 img {
   width: 100%;
+  display: block;
 }
 
 ul {
@@ -26,11 +32,6 @@ a {
   text-decoration: none;
   color: #0E3D59;
   font-weight: 500;
-}
-
-iframe {
-  width: 100%;
-  
 }
 
 .cabecalho {
@@ -46,7 +47,7 @@ iframe {
 }
 
 .menu-principal {
-  max-width: 60%;
+  max-width: 80%;
   height: 40px;
   background-color: #8DBAB3;
   margin: 0 auto 20px;
@@ -73,14 +74,20 @@ iframe {
 
 .conteudo-produto {
   display: flex;
-  width: 80%;
-  margin: auto;
+  
 }
 
-.conteudo-produto nav {
+.menu-categoria {
   width: 20%;
-  max-width: 200px;
-  min-width: 125px;
-
+  max-width: 230px;
+  min-width: 170px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+}
+
 
