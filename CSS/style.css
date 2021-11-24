@@ -1,13 +1,25 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #EBEBEB;
+  color: #535250;
 }
 
 img {
   width: 100%;
 }
 
+ul {
+  list-style-type: none;
+  line-height: 2;
+}
+
 .cabecalho {
-  background-color: #EBEBEB;
+  
   display: flex;
   height: 300px;
 
@@ -16,28 +28,27 @@ img {
 .cabecalho img {
   display: flex;
   margin: auto;
-  width: 50%;
-
-
-}
-
-ul {
-  list-style-type: none;
-  line-height: 2;
-  padding: 0;
+  height: 70%;
 }
 
 .menu-principal {
-  display: flex;
-  margin: 0;
+  max-width: 60%;
+  height: 40px;
+  background-color: #8DBAB3;
+  margin: 0 auto;
 }
 
 .menu-principal ul {
-  align-items: center;
   column-count: 4;
-  width: 100%;
 }
 
 .menu-principal ul li {
-  width: 25%;
+  line-height: 2.5;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.menu-principal ul li:hover {
+  background-color: #D9AD7C;
 }
