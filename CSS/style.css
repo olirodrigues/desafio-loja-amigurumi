@@ -18,6 +18,12 @@ ul {
   line-height: 2;
 }
 
+a {
+  text-decoration: none;
+  color: #0E3D59;
+  font-weight: 500;
+}
+
 .cabecalho {
   
   display: flex;
