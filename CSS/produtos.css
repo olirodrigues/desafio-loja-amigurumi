@@ -47,6 +47,10 @@
   border: solid 1px #535250;
 }
 
+.grid-container img:hover {
+  filter: opacity(50%);
+}
+
 .preco-compra {
   padding: 5px 8px;
   border: solid 2px #0E3D59;
