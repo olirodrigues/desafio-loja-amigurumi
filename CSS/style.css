@@ -76,6 +76,7 @@ a {
   height: 50px;
   background-color: #8DBAB3;
   margin: 0 auto 50px;
+  border-radius: 8px;
 
 }
 
@@ -94,4 +95,5 @@ a {
 
 .menu-principal ul li:hover {
   background-color: #D9AD7C;
+  border-radius: 8px;
 }

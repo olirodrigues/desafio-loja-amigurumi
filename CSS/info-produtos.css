@@ -17,6 +17,7 @@ margin-bottom: 20px;
   height: max-content;
   background-color: white;
   border: solid 1px #535250;
+  border-radius: 16px;
 }
 
 .produto-descricao p {
@@ -45,6 +46,7 @@ text-align: justify;
   color: #0E3D59;
   font-size: 12pt;
   font-weight: 700;
+  border-radius: 8px;
 }
 
 .preco-compra a:hover {
