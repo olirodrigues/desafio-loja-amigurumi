@@ -1,0 +1,38 @@
+h1 {
+  margin-bottom: 20px;
+}
+
+
+.form-contato {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-contato label{
+  margin-bottom: 10px;
+}
+
+.form-contato input[type=text], [type=email], [type=number], textarea   {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #0E3D59;
+  border-radius: 8px;
+}
+
+.form-contato input[type=submit] {
+  background-color: #0E3D59;
+  border: none;
+  color: #EBEBEB;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 15px 0;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 8px;
+}
+
+
+.form-contato input[type=submit]:hover {
+  background-color: #D9AD7C;
+  color: #0E3D59;
+}
