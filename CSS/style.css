@@ -27,6 +27,9 @@ ul {
   list-style-type: none;
   line-height: 2;
 }
+ h1, h2 {
+   color: #535250;
+ }
 
 a {
   text-decoration: none;
@@ -48,9 +51,9 @@ a {
 
 .menu-principal {
   max-width: 80%;
-  height: 40px;
+  height: 50px;
   background-color: #8DBAB3;
-  margin: 0 auto 20px;
+  margin: 0 auto 50px;
 
 }
 
@@ -59,7 +62,7 @@ a {
 }
 
 .menu-principal ul li {
-  line-height: 2.5;
+  line-height: 50px;
   display: flex;
   justify-content: center;
 
@@ -70,7 +73,7 @@ a {
 }
 
 
-/* Produtos */
+/* Pagina Produtos */
 
 .conteudo-produto {
   display: flex;
@@ -98,3 +101,50 @@ a {
   background-color: white;
 }
 
+/* Produtos página exclusiva */
+
+.produto-unico h1, h2, p {
+  margin-bottom: 20px;
+}
+
+.produto-descricao {
+display: flex;
+gap: 50px;
+margin-bottom: 20px;
+
+}
+
+.produto-descricao img {
+  width: 50%;
+  max-width: 500px;
+  height: max-content;
+}
+
+.produto-descricao p {
+text-align: justify;
+}
+
+.preco-compra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.preco-compra p {
+  color: #0E3D59;
+  font-weight: 700;
+  font-size: 20pt;
+  margin: 0;
+}
+
+.preco-compra a {
+  padding: 10px 15px;
+  border: solid 4px #0E3D59;
+  color: #0E3D59;
+  font-size: 15pt;
+  font-weight: 700;
+}
+
+.preco-compra a:hover {
+  border-color: #D9AD7C;
+  color: #D9AD7C;
+}
