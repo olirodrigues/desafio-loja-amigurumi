@@ -11,6 +11,8 @@ body {
   background-color: #EBEBEB;
   color: #535250;
   height: 100%;
+  max-width: 1500px;
+  margin: 0 auto
 }
 
 main {
@@ -29,6 +31,14 @@ ul {
 }
  h1, h2 {
    color: #535250;
+ }
+
+ h1 {
+   font-size: 20pt;
+ }
+
+ h2 {
+   font-size: 15pt;
  }
 
 a {

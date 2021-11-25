@@ -1,6 +1,6 @@
 /* CSS referente a página dos produtos contendo a desscrição e informações adicionais */
 
-.produto-unico h1, h2, p {
+.produto-unico h1, h2, p, ul{
   margin-bottom: 20px;
 }
 
@@ -15,10 +15,15 @@ margin-bottom: 20px;
   width: 50%;
   max-width: 500px;
   height: max-content;
+  background-color: white
 }
 
 .produto-descricao p {
 text-align: justify;
+}
+
+.produto-descricao ul li {
+  list-style-type: disc;
 }
 
 .preco-compra {
@@ -29,7 +34,7 @@ text-align: justify;
 .preco-compra p {
   color: #0E3D59;
   font-weight: 700;
-  font-size: 20pt;
+  font-size: 18pt;
   margin: 0;
 }
 
@@ -37,7 +42,7 @@ text-align: justify;
   padding: 10px 15px;
   border: solid 4px #0E3D59;
   color: #0E3D59;
-  font-size: 15pt;
+  font-size: 12pt;
   font-weight: 700;
 }
 

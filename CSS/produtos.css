@@ -1,0 +1,25 @@
+.conteudo-produto {
+  display: flex;
+  
+}
+
+.menu-categoria {
+  width: 20%;
+  max-width: 230px;
+  min-width: 170px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+}
+
+.grid-container h4 {
+  color: #0E3D59;
+
+}
+.grid-container img {
+  background-color: white;
+}
