@@ -1,6 +1,5 @@
 .conteudo-produto {
   display: flex;
-  
 }
 
 .menu-categoria {
@@ -9,6 +8,16 @@
   min-width: 170px;
 }
 
+.menu-categoria h3 {
+  margin-bottom: 20px;
+}
+
+.filter-select {
+  color: #D9AD7C;
+  font-weight: 400;
+}
+
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -16,10 +25,37 @@
   
 }
 
-.grid-container h4 {
-  color: #0E3D59;
-
+.grid-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.grid-container h4, img {
+  margin-bottom: 5px;
+}
+
+.grid-container p {
+  margin-bottom: 10px;
+}
+
+
+
 .grid-container img {
   background-color: white;
+  border: solid 1px #535250;
+}
+
+.preco-compra {
+  padding: 5px 8px;
+  border: solid 2px #0E3D59;
+  color: #0E3D59;
+  font-size: 10pt;
+  font-weight: 600;
+}
+
+.preco-compra:hover {
+  border-color: #D9AD7C;
+  color: #D9AD7C;
 }

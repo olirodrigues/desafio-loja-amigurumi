@@ -15,7 +15,8 @@ margin-bottom: 20px;
   width: 50%;
   max-width: 500px;
   height: max-content;
-  background-color: white
+  background-color: white;
+  border: solid 1px #535250;
 }
 
 .produto-descricao p {

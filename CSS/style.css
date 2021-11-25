@@ -33,12 +33,24 @@ ul {
    color: #535250;
  }
 
+ h3, h4 {
+   color: #0E3D59;
+ }
+
  h1 {
    font-size: 20pt;
  }
 
  h2 {
    font-size: 15pt;
+ }
+
+ h3 {
+   font-size: 13pt;
+ }
+
+ h4 {
+   font-size: 11pt;
  }
 
 a {
