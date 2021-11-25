@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/produtos.css">
 
 
   <title>Loja Amigurumi</title>
@@ -13,20 +14,77 @@
 </head>
 
 <body>
-  <div class="conteudo-produto">
-    <nav>
-      <h3>Categorias:</h3>
+
+  <header>
+
+    <div class="cabecalho">
+      <img src="../../img/logo.svg" alt="logo" class="logo-top">
+    </div>
+
+    <nav class="menu-principal">
       <ul>
-        <li>Todos os produtos</li>
-        <li>Acessórios</li>
-        <li>Amigurumis</li>
-        <li>Linhas</li>
+        <a href="../index.html">
+          <li>Inicio</li>
+        </a>
+        <a href="../produtos.html">
+          <li>Produtos</li>
+        </a>
+        <a href="../sobre.html">
+          <li>Sobre</li>
+        </a>
+        <a href="../contato.html">
+          <li>Contato</li>
+        </a>
       </ul>
     </nav>
-    <section>
-      acessorio
-    </section>
-  </div>
+
+  </header>
+
+  <main>
+    <div class="conteudo-produto">
+      <nav class="menu-categoria">
+        <h3>Categorias:</h3>
+        <ul>
+          <li><a href="../produtos.html">Todos os produtos</a></li>
+          <li><a href="acessorios.html">Acessórios</a></li>
+          <li><a href="amigurumi.html">Amigurumis</a></li>
+          <li class="filter-select">Linhas</li>
+        </ul>
+      </nav>
+
+      <section class="grid-container">
+        <div>
+          <a href="produtos/linha-amigurumi.html">
+            <img src="../../img/produto-07.png" alt="" class="grid-item">
+          </a>
+          <h4>Linha Amigurumi</h4>
+          <p>R$14,00</p>
+          <a href="#" class="preco-compra">Comprar</a>
+        </div>
+
+        <div>
+          <a href="produtos/amigurumi-soft.html">
+            <img src="../../img/produto-08.jpg" alt="" class="grid-item">
+          </a>
+          <h4>Linha Amigurumi Soft</h4>
+          <p>R$12,00</p>
+          <a href="#" class="preco-compra">Comprar</a>
+        </div>
+
+        <div>
+          <a href="produtos/amigurumi-maxi.html">
+            <img src="../../img/produto-09.png" alt="" class="grid-item">
+          </a>
+          <h4>Linha Amigurumi Maxi</h4>
+          <p>R$13,00</p>
+          <a href="#"  class="preco-compra">Comprar</a>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
 </body>
+
 
 </html>
