@@ -27,6 +27,7 @@ p {
   background-color: white;
   border: solid 1px #535250;
   border-radius: 16px;
+  max-width: 420px;
 }
 
 .mais-vendidos img:hover, .add-recente img:hover {
