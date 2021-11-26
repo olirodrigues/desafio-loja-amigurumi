@@ -11,13 +11,13 @@ body {
   background-color: #EBEBEB;
   color: #535250;
   height: 100%;
-  max-width: 1500px;
   margin: 0 auto
 }
 
 main {
   margin: auto;
   width: 80%;
+  max-width: 1500px;
 }
 
 img {
@@ -62,7 +62,6 @@ a {
 .cabecalho {
   display: flex;
   height: 250px;
-
 }
 
 .cabecalho img {
@@ -72,11 +71,12 @@ a {
 }
 
 .menu-principal {
-  max-width: 80%;
+  width: 80%;
   height: 50px;
   background-color: #8DBAB3;
   margin: 0 auto 50px;
   border-radius: 8px;
+  max-width: 1500px;
 
 }
 
@@ -98,6 +98,37 @@ a {
   border-radius: 8px;
 }
 
+footer {
+  height: 200px;
+  margin-top: 50px;
+  background-color: #8DBAB3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+footer section {
+  margin: auto;
+}
+
+footer section span {
+  color: #0E3D59;
+}
+
+.form-pagmento h3{
+  margin-bottom: 10px;
+}
+
+.pag-icon {
+  display: flex;
+  justify-content: center;
+}  
+
+.pag-icon i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #0E3D59;
+}
+
 @media (max-width: 600px) {
   .menu-principal {
    height: auto;
@@ -108,4 +139,14 @@ a {
     display: flex;
     flex-direction: column;
     }
+
+  footer {
+    grid-template-columns: 1fr;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
