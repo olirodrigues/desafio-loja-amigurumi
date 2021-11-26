@@ -1,0 +1,37 @@
+.conteudo-sobre h1, h2, p, ul{
+  margin-bottom: 20px;
+}
+
+.conteudo-sobre {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.conteudo-sobre img {
+  width: 50%;
+  max-width: 400px;
+  height: max-content;
+  border: solid 1px #535250;
+  border-radius: 16px;
+}
+
+.conteudo-sobre p {
+  text-align: justify;
+}
+
+.social-icon {
+  display: flex;
+  gap: 10px;
+  }  
+.social-icon i {
+  font-size: 36px;
+  margin: 0 10px;
+}
+
+.social-icon i:hover {
+  color: #D9AD7C;
+}
+
+
+
