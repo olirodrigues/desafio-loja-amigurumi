@@ -15,12 +15,14 @@
   height: max-content;
   border: solid 1px #535250;
   border-radius: 16px;
+  margin: 0 auto;
 }
 
 .conteudo-sobre h1 {
   grid-column: 3/6;
   grid-row: 1;
 }
+
 .conteudo-sobre p {
   text-align: justify;
   grid-column: 3/6;
@@ -37,7 +39,8 @@
   gap: 10px;
   grid-column: 3/6;
   grid-row: 4;
-  }  
+}  
+
 .social-icon i {
   font-size: 36px;
   margin: 0 10px;
