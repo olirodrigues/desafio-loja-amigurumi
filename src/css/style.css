@@ -61,7 +61,7 @@ a {
 
 .cabecalho {
   display: flex;
-  height: 300px;
+  height: 250px;
 
 }
 
@@ -96,4 +96,16 @@ a {
 .menu-principal ul li:hover {
   background-color: #D9AD7C;
   border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .menu-principal {
+   height: auto;
+   max-width: 100%;
+  }
+
+  .menu-principal ul {
+    display: flex;
+    flex-direction: column;
+    }
 }
